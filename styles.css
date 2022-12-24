@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    color: black;
+    display: grid;
+    grid-template-rows: 62px 61px 1fr 55px;
+    grid-template-columns: 1fr 250px;
+    gap: 10px;
+    padding: 32px;
+}
+header{
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+nav{
+    background-color: #FF80FF;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.navbar-items{
+    color: black;
+   
+}
+.navbar-items ul{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width: 700px;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar-items ul a{
+    text-decoration: none;
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 90px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100%;
+    height: 35px;
+}
+.searchbox{
+    background-color: white;
+    color: grey;
+    border: 1px inset black;
+    width: 50%;
+    display: flex;
+    align-items: center;
+} 
+
+article{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 10px;
+}
+article h1{
+    text-align: center;
+}
+aside{
+    background-color: #FF80FF;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+aside h1{
+    text-align: center;
+}
+aside ul a{
+    text-decoration: none;
+}
+
+.copyright{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
