@@ -1,3 +1,6 @@
+<p> Visit live site here:</p>
+<p>https://diondraevans.github.io/Hard-CSS-Grid-Project/</p>
+
 # Hard-CSS-Grid-Project
 Use GRID to structure the site.  Make the following site with HTML and CSS.
 
